@@ -1,0 +1,26 @@
+microservice
+	- chia service = nhieu module => xuly rieng 1 service, k anh huong nhau
+		=> co the tac dong len 1 service ma k anh huong cac service
+	- giai quyet dc disad cua monolith, 1 thang gay la nhung thang con lai cung gay
+		service payment hu, nhung van xai website binh thuong ma chi khong xai duoc payment
+	
+react 
+	- perf
+	- client side rendering
+		+ toi uu performance (k can load lai trnag nhieu, only doi main content, payment sess moi call BE)
+
+Warehoues
+	- quan ly sp kho hang
+	- giao dien quan ly cho end-user
+
+payment
+	- xu ly thanh toan
+	- tac dong vao DB MySQL cua Strapi
+
+
+visual
+	- phuc vu cho end-user
+	- dung de xem thong ke don hang, bao cao 
+
+
+muc tieu: tao he thong microservice cho viec quan ly ban hang de ap dung tren nhieu mo hinh khac nhau
